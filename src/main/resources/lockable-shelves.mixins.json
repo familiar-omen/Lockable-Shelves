@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.familiar_omen.lockable_shelves.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+        "ShelfBlockEntityBase",
+		"ShelfBlockEntityMixin",
+        "ShelfBlockMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
